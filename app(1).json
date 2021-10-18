@@ -1,0 +1,12 @@
+{
+  "name": "Al-Qur'an",
+  "description": "Bot Al-Qur'an telegram open source",
+  "logo": "https://asset.kompas.com/data/photo/2015/06/25/1241485shutterstock-144203029780x390.jpg",
+  "repository": "https://github.com/MRK-YT/Al-Qur-an",
+  "env": {
+    "TOKEN": {
+      "description": "Masukan Bot Token dari @BotFather",
+      "required": true
+    }
+  }
+}
