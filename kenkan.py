@@ -41,7 +41,7 @@ def send_page(user_id, first_name, chat_id,
                     if with_markup else []
     markup.add(*buttons_list)
     if is_start or send:
-        BOT.send_photo(chat_id, page_url if page_url else open('.start_img.jpg', 'rb'),
+        BOT.send_photo(chat_id, page_url if page_url else open('.start_img(1).jpg', 'rb'),
                         reply_to_message_id=message_id,reply_markup=markup if with_markup else None,
                             caption=messages.get('start') if is_start else None)
     else:
