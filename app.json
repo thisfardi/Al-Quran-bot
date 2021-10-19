@@ -1,0 +1,24 @@
+{
+
+  "name": "Al-Quran_bot",
+
+  "description": "Bot Al-Qur'an telegram open source",
+
+  "logo": "https://te.legra.ph/file/f2960416459ba96bd37dd.jpg",
+
+  "repository": "https://github.com/sinan-m-116/Al-Qur-an",
+
+  "env": {
+
+    "TOKEN": {
+
+      "description": "token give from  @BotFather",
+
+      "required": true
+
+    }
+
+  }
+
+}
+
