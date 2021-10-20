@@ -91,12 +91,12 @@ def command_handler(message):
 def message_handler(message):
     text = str(message.text)
     user_info = get_info(message)
-    if text.startswith("/open"):
+    if text.startswith("/buka"):
         send_page(*user_info,
                     page_number=1, send=True)
-    elif text.startswith(('/open_page', '/fetch_page')):
+    elif text.startswith(('buka halaman', 'ambil halaman')):
         try:
-            open_page(text, *user_info, with_markup= not text.startswith(('/fetch_page')))
+            open_page(text, *user_info, with_markup= not text.startswith(('ambil halaman')))
         except Exception as err:
             BOT.reply_to(message, err)
     elif text in ['/repo']:
